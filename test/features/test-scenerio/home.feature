@@ -3,7 +3,7 @@ Feature: The internet website homepage
 
     Scenario Outline: As a user, I can open internet website
 
-        Given I open the browser and load the url <homepageurl>
+        Given  open the browser and load the uIrl <homepageurl>
         #Then  I should see a header with text <headertext>
 
         Examples:
