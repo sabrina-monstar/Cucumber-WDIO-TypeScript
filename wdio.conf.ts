@@ -138,7 +138,7 @@ export const config: Options.Testrunner = {
   // If you are using Cucumber you need to specify the location of your step definitions.
   cucumberOpts: {
     // <string[]> (file/dir) require files before executing features
-    require: ["./test/features/step-definations/demo.ts"],
+    require: ["./test/features/step-definations/Register.ts"],
 
     //require: ['./features/step-definitions/ts-files/demo.ts'],
     // <boolean> show full backtrace for errors
@@ -157,7 +157,7 @@ export const config: Options.Testrunner = {
     strict: false,
     // <string> (expression) only execute the features or scenarios with tags matching the expression
     //tags: "@demo",
-    tags: "@demo",
+    tags: "@Register",
     // <number> timeout for step definitions
     timeout: 60000,
     // <boolean> Enable this config to treat undefined definitions as warnings.

@@ -1,4 +1,4 @@
-import { Given } from "@wdio/cucumber-framework";
+import { Given, Then } from "@wdio/cucumber-framework";
 import { browser } from "@wdio/globals";
 //import { expect, $ } from "@wdio/globals";
 
